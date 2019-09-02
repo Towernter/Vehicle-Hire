@@ -42,10 +42,7 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` (`name`, `surname`, `email`, `phone`, `organisation`, `password`, `logged`) VALUES
-('Sammuel', 'Kapenzi', 'sammy@gmail.com', 777777777, 'sammy', 'sammy', 1),
-('Tawanda', 'Nyahuye', 'tawandanyahuye@yahoo.com', 778612578, 'towernter', 'TAWAZ', 0),
-('Malvine', 'Chikochi', 'xixoxi@gmail.com', 89765, 'xixo', 'xixo', 1);
+
 
 -- --------------------------------------------------------
 
@@ -63,8 +60,6 @@ CREATE TABLE `email` (
 -- Dumping data for table `email`
 --
 
-INSERT INTO `email` (`name`, `email`, `message`) VALUES
-('Tawanda', 'tawandanyahuye.tn@gmail.com', 'hello');
 
 -- --------------------------------------------------------
 
@@ -84,9 +79,6 @@ CREATE TABLE `hire` (
 -- Dumping data for table `hire`
 --
 
-INSERT INTO `hire` (`car_name`, `email`, `destination`, `hired`, `cost`) VALUES
-('hammer', 'tawandanyahuye@yahoo.com', 'Chinhoyi', 1, 600),
-('limousine', 'tawandanyahuye@yahoo.com', 'Masvingo', 1, 960);
 
 -- --------------------------------------------------------
 
